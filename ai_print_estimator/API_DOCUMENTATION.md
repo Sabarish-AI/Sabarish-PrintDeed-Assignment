@@ -13,9 +13,6 @@ Once the application is running, the interactive API documentation is available 
 - **Swagger UI:**  
   http://localhost:8000/docs
 
-- **OpenAPI JSON:**  
-  http://localhost:8000/openapi.json
-
 These endpoints allow recruiters and developers to:
 - Explore all available APIs
 - View request/response schemas
