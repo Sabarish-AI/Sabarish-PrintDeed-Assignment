@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+pydantic
+pydantic-settings
+sqlalchemy
+psycopg2-binary
+alembic
+python-multipart
+python-dotenv
+openai
+tenacity
+httpx
+pymupdf
+pillow
+requests

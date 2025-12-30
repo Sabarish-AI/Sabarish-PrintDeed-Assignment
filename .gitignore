@@ -1,0 +1,34 @@
+# --------------------
+# Python
+# --------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+
+# --------------------
+# Logs
+# --------------------
+*.log
+
+# --------------------
+# n8n runtime data
+# --------------------
+n8n/data/database.sqlite
+n8n/data/database.sqlite-shm
+n8n/data/database.sqlite-wal
+n8n/data/n8nEventLog*.log
+
+# --------------------
+# OS
+# --------------------
+.DS_Store
+Thumbs.db
+
+# --------------------
+# IDE
+# --------------------
+.vscode/

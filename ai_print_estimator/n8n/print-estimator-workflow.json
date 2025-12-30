@@ -1,0 +1,31 @@
+{
+  "nodes": [
+    {
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "parameters": {
+        "path": "print-estimator",
+        "httpMethod": "POST"
+      }
+    },
+    {
+      "name": "Severity Check",
+      "type": "n8n-nodes-base.if",
+      "parameters": {
+        "conditions": {
+          "string": [
+            {
+              "value1": "={{$json[\"severity\"]}}",
+              "operation": "equal",
+              "value2": "high"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Send to CSR",
+      "type": "n8n-nodes-base.emailSend"
+    }
+  ]
+}
